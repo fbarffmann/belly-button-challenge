@@ -1,10 +1,33 @@
-# belly-button-challenge
-This repository contains the completed assignment for the Module 14 challenge.
+# Belly Button Biodiversity Dashboard
 
-Class notes/discussions were leveraged to complete the assignment.
+Built an interactive dashboard using JavaScript and Plotly to visualize bacterial biodiversity from human belly button samples. Analyzed sample data to explore bacterial distribution across over 150 participants.
 
-w3schools was also used to complete the bubble and bar charts.
+## Tools & Technologies Used
 
-The app.js provided starter code to work off of to complete the assignment.
+- JavaScript
+- Plotly.js
+- HTML/CSS
+- JSON data handling
+- Data Visualization
 
-The index.html file provided remained unmodified. It provided the skeleton for the webpage as well as various tags used as hooks for JavaScript.
+## File Structure
+
+```text
+.
+├── index.html - Dashboard web page
+├── static/js/app.js - JavaScript logic for charts
+├── samples.json - Dataset of participant bacterial samples
+```
+
+## Skills Demonstrated
+
+- Building interactive dashboards with JavaScript
+- Visualizing hierarchical biological data
+- Cleaning and transforming JSON data for analysis
+- Using Plotly for dynamic charts and visual storytelling
+
+## Key Findings
+
+- Analyzed belly button bacterial data from 153 participants.
+- Identified OTU (Operational Taxonomic Unit) 1167 as the most common bacteria across participants.
+- Created interactive visualizations to display sample diversity and washing frequency per participant.
